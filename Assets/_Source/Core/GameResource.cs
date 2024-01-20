@@ -2,10 +2,10 @@
 {
     public enum GameResource
     {
-        Humans,
-        Food,
-        Wood,
-        Stone,
-        Gold
+        Humans = 1,
+        Food = 2,
+        Wood = 3,
+        Stone = 4,
+        Gold = 5
     }
 }

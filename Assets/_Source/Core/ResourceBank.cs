@@ -4,7 +4,7 @@ namespace Core
 {
     public class ResourceBank
     {
-        public Dictionary<GameResource, ObservableInt> BankResources { get; }
+        private Dictionary<GameResource, ObservableInt> BankResources { get; }
 
         public ResourceBank()
         {

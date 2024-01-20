@@ -5,6 +5,7 @@ namespace Core
     public class GameManager : MonoBehaviour
     {
         public ResourceBank ResourceBank { get; } = new();
+        public ProductionLevelController ProductionLevelController { get; } = new();
 
         private void Awake()
         {

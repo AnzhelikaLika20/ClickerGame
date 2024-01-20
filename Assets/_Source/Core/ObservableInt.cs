@@ -14,7 +14,7 @@ namespace Core
 
         public int Value
         {
-            get { return _value; }
+            get => _value;
             set
             {
                 OnValueChanged?.Invoke(value);
